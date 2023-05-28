@@ -7,7 +7,7 @@ class LoginWindow:
     def __init__(self):
         self.window = Tk()
         self.window.title("Login")
-        self.window.geometry("470x580+300+200")
+        self.window.geometry("470x350+300+200")
         self.window.resizable(False, False)
         self.window.configure(bg="#FFD39B")
         

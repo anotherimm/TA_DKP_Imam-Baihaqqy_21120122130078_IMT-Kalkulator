@@ -30,13 +30,13 @@ class MainMenu:
     
     def menu1_action(self):
         # Tambahkan aksi yang ingin dilakukan saat tombol menu 1 ditekan
-        print("Menu 1 selected")
+        # print("Menu 1 selected")
         subprocess.call(["python", "kalkulator.py"])
         self.window.destroy()
     
     def menu2_action(self):
         # Tambahkan aksi yang ingin dilakukan saat tombol menu 2 ditekan
-        print("Menu 2 selected")
+        # print("Menu 2 selected")
         subprocess.call(["python", "informasi.py"])
         self.window.destroy()
     
