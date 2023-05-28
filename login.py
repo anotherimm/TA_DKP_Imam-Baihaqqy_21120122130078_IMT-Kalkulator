@@ -16,19 +16,19 @@ class LoginWindow:
         self.window.iconphoto(False, icon_image)
 
         # Username label and entry
-        self.username_label = Label(self.window, text="Username:", font=("Arial", 14))
+        self.username_label = Label(self.window, text="Username:", bg="burlywood1", font=("Arial", 14))
         self.username_label.pack(pady=10)
         self.username_entry = Entry(self.window, font=("Arial", 14))
         self.username_entry.pack()
 
         # Password label and entry
-        self.password_label = Label(self.window, text="Password:", font=("Arial", 14))
+        self.password_label = Label(self.window, text="Password:",bg="burlywood1",  font=("Arial", 14))
         self.password_label.pack(pady=10)
         self.password_entry = Entry(self.window, show="*", font=("Arial", 14))
         self.password_entry.pack()
 
         # Error label
-        self.error_label = Label(self.window, fg="red", font=("Arial", 12))
+        self.error_label = Label(self.window, fg="red", bg="burlywood1", font=("Arial", 12))
         self.error_label.pack(pady=10)
 
         # Login button
