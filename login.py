@@ -10,10 +10,6 @@ class LoginWindow:
         self.window.geometry("470x350+300+200")
         self.window.resizable(False, False)
         self.window.configure(bg="#FFD39B")
-        
-        # Set the window icon
-        icon_image = ImageTk.PhotoImage(file="Images/icon.png")
-        self.window.iconphoto(False, icon_image)
 
         # Username label and entry
         self.username_label = Label(self.window, text="Username:", bg="burlywood1", font=("Arial", 14))

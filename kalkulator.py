@@ -18,8 +18,7 @@ class BMI_Calculator:
         self.scale = PhotoImage(file="Images/scale.png")
         self.manusia_image = PhotoImage(file="Images/man.png")
         
-        # self.icon_photo = Label(self.root, image=self.image_icon)
-        # self.icon_photo.pack()
+       
 
         self.top_image = Label(self.root, image=self.top, background="#f0f1f5")
         self.top_image.place(x=-10, y=-10)
