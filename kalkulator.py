@@ -8,7 +8,7 @@ root.title("IMT Kalkulator")
 root.geometry("470x580+300+200")
 root.resizable(False, False)
 root.configure(bg="#f0f1f5")
-
+# oop2
 class BMI_Calculator:
     def __init__(self, root):
         self.root = root
@@ -17,8 +17,6 @@ class BMI_Calculator:
         self.box = PhotoImage(file="Images/box.png")
         self.scale = PhotoImage(file="Images/scale.png")
         self.manusia_image = PhotoImage(file="Images/man.png")
-        
-       
 
         self.top_image = Label(self.root, image=self.top, background="#f0f1f5")
         self.top_image.place(x=-10, y=-10)

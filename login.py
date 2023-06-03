@@ -3,6 +3,8 @@ from tkinter import ttk
 from PIL import Image, ImageTk
 import subprocess
 
+
+# oop1
 class LoginWindow:
     def __init__(self):
         self.window = Tk()
